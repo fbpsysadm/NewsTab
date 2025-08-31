@@ -1,0 +1,2 @@
+# NewsTab
+discourse News tab
