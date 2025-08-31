@@ -5,10 +5,6 @@ export default Component.extend({
   newsHtml: null,
   didInsertElement() {
     this._super(...arguments);
-    // ajax("https://example.com/news.html").then(html => {
-    //   this.set("newsHtml", html);
-    // });
-
     // Fake HTML content instead of loading from URL
     const fakeHtml = `
       <h2>Latest News</h2>
